@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './custom-widgets/favourite-widget.dart';
+import 'package:flutter_application_1/custom-widgets/favourite-widget.dart';
 
 void main() => runApp(const MyApp());
 
@@ -37,11 +37,7 @@ class MyApp extends StatelessWidget {
             ),
           ),
           /*3*/
-          const Icon(
-            Icons.access_alarm,
-            color: Color.fromARGB(255, 0, 153, 255),
-          ),
-          const Text('41'),
+          const FavoriteWidget(),
         ],
       ),
     );
